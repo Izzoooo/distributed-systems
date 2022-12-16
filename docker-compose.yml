@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  server:
+    build: ./udp-socket/socket-server
+    ports:
+      - 6543:6543/udp
+  client:
+    hostname: client
+    ports:
+      - 9090:9090
+    build: ./udp-socket/socket-client/sources/target/classes
