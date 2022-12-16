@@ -1,6 +1,6 @@
 # Distributed Systems
 ```
-Healcthcheck: 
+Healthcheck: 
   
 Die Worker schicken mittels UDP als erstes eine Nachricht(z.B. "Worker 1") an Controller und der Contoller empfängt das Packet und entpackt und 
 schickt den selben Inhalt von der Nachricht zurück an diesen Worker, wenn das Packet bei der Controller Seite bereits angekommen ist und nicht leer ist,
