@@ -1,7 +1,7 @@
-# Distributed Systems
+# `Distributed Systems`
+
+## Healcthcheck: 
 ```
-Healthcheck: 
-  
 Die Worker schicken mittels UDP als erstes eine Nachricht(z.B. "Worker 1") an Controller und der Contoller empfängt das Packet und entpackt und 
 schickt den selben Inhalt von der Nachricht zurück an diesen Worker, wenn das Packet bei der Controller Seite bereits angekommen ist und nicht leer ist,
 dann somit weiß der Controller, dass dieser Worker betreibsbereit ist und gibt anschließend eine Ausgabe.
@@ -13,19 +13,15 @@ mit seinem, was er tatsächlich geschickt hat, falls die Inhalte gleich sind, da
 Also, in unserem Fall wird auf beiden Seiten Healthcheck überprüft und überwacht.
 
 ```
-
-```
-
-RTT(Round Trip Time): 
-
+## RTT (Round Trip Time):
+``` 
 die Packetumlaufzeit wird nur auf Worker-Seite berechnet, in dem die Localtime von Packetsendung und die Localtime Packetempfang gecacht wird,
 um das Differenz zwischen beiden Localtime zu liefern, das in dem Fall als RTT gilt.
-
 ```
 
-```
-HTTP:
 
+## HTTP:
+``` 
 Hier soll die Kommunikation zur Datenübertragung irgendwie als TCP wegen HTTP-Methoden(POST,GET,etc...) weitergeführt werden.
 Daher sind wir auf die Idee gekommen, die Ergebnisse aus einer UDP-Kommunikation intern als TCP woanders(nämlich CLientHandlerTCp) 
 zu übertragen, um diese Daten sinnvoll weiter zu bearbeiten. Anschließend werden diese an TCPServer geschickt.  
@@ -36,18 +32,16 @@ Darüber hinaus ist in unserem Programm möglich mittels Postman tool Daten als 
 Der TCPServer ist in der Lage, wie von uns in der Aufgabestellung verlangt ist, POST und GET Anfragen voneinander zu unterscheiden.            
 ```
 
+## Database:
 ```
-Database:
-
 Als Datenbank haben wir uns für postgreSQL entschieden, da eine Datei wie JSON oder CSV als Datenbank zu benutzen sehr schmerzhaft  
 aufgrund des selbst Kümmerns der zu persistierenden Daten und des Formats der Dateien sein kann. 
 
 Die Implementierung von Insert in die Datenbank befindet sich momentan in TCPSerever.
 ```
 
+## RPC:
 ```
-RPC:
-
 Nach dem Ausführen der thirft-Datei, in der sich zwei Funktionen befinden, wurde zwei (InvalidOperation - MatrixMultiplikationService)
 Java Classen Schnitstellen automatisch erzeugt, diese sollen sowhol bei der Controller-Seite als auch bei der Worker-Seite enthalten sein.
 Dieser zwei Funktionen der Thirft-Datei sind in der Klasse RpcController auf der Worker-Seite implementiert, somit ermöglichen wir durch Schnittstellen
