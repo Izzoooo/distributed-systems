@@ -1,0 +1,21 @@
+version: '3.9'
+services:
+  server:
+    hostname: socket-server
+    build:
+      context: ./udp-socket/socket-server
+      dockerfile: Dockerfile
+    depends_on:
+      - client
+    ports:
+      - 6543:6543/udp
+
+  client:
+    hostname: client
+    environment:
+      - DESTINATION=socket-server
+    build:
+      context: ./udp-socket/socket-client
+      dockerfile: Dockerfile
+    deploy:
+      replicas: 4

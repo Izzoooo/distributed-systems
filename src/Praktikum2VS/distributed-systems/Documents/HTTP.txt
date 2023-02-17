@@ -1,0 +1,10 @@
+HTTP:
+
+Hier soll die Kommunikation zur Datenübertragung irgendwie als TCP wegen HTTP-Methoden(POST,GET,etc...) weitergeführt werden.
+Daher sind wir auf die Idee gekommen, die Ergebnisse aus einer UDP-Kommunikation intern als TCP woanders(nämlich CLientHandlerTCp) 
+zu übertragen, um diese Daten sinnvoll weiter zu bearbeiten. Anschließend werden diese an TCPServer geschickt.  
+In TCPSErver werden diese Daten empfangen und wie angekündigt mittels händig implementierende Http-POST in einem selbst erstellten 
+Webbrwoser ausgegeben.   
+
+Darüber hinaus ist in unserem Programm möglich mittels Postman tool Daten als POST zu schciken, die in Datenbank postgreSQL abgelegt werden.
+Der TCPServer ist in der Lage, wie von uns in der Aufgabestellung verlangt ist, POST und GET Anfragen voneinander zu unterscheiden.            

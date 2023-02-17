@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11b9468f-d5da-46ba-8cea-dcedeaeec51e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/Documents/Database.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/Documents/HTTP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/Documents/Healthcheck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/Documents/MQTT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/Documents/RPC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/db/crebas.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/matMul.thrift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/RTT-TCP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/RTT-Worker1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/RTT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/RTTTCP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/ping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/bash/socket-client.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/ClientHandlerTCP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/ClientID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/InvalidOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/LamportFIFO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/MatrixMultiplicationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/MqttPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/MqttSubscriber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/PayloadHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/RpcController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/UDPSocketClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/configuration/CliParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/configuration/CliProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/configuration/Defaults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/src/main/java/de/hda/fbi/ds/mbredel/configuration/Worker1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/EndMatrix.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/src/main/bash/socket-server.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/src/main/java/de/hda/fbi/ds/mbredel/InvalidOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/src/main/java/de/hda/fbi/ds/mbredel/ListConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/src/main/java/de/hda/fbi/ds/mbredel/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/src/main/java/de/hda/fbi/ds/mbredel/MatrixMultiplicationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/src/main/java/de/hda/fbi/ds/mbredel/UDPSocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/src/main/java/de/hda/fbi/ds/mbredel/configuration/CliParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/src/main/java/de/hda/fbi/ds/mbredel/configuration/CliProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/src/main/java/de/hda/fbi/ds/mbredel/configuration/Defaults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/src/main/java/de/hda/fbi/ds/mbredel/configuration/matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/src/main/bash/socket-server.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/src/main/java/de/hda/fbi/ds/mbredel/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/src/main/java/de/hda/fbi/ds/mbredel/TCPSocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/tcp-server/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/tcp-server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/tcp-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/tcp-server/src/main/bash/socket-server.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/tcp-server/src/main/java/de/hda/fbi/ds/mbredel/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/tcp-server/src/main/java/de/hda/fbi/ds/mbredel/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-systems/udp-socket/tcp-server/src/main/java/de/hda/fbi/ds/mbredel/TCPSocketServer.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KH1QJCg2puhWx1B0SJgFBIv37p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/izzdi/vsPraktikumsRueden/group_b_6&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11b9468f-d5da-46ba-8cea-dcedeaeec51e" name="Changes" comment="" />
+      <created>1673616676828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673616676828</updated>
+      <workItem from="1673616678074" duration="82000" />
+      <workItem from="1673948799760" duration="51000" />
+      <workItem from="1673952529183" duration="83000" />
+      <workItem from="1673952704605" duration="28000" />
+      <workItem from="1674297380871" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

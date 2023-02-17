@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Praktikum1VS.iml" filepath="$PROJECT_DIR$/.idea/Praktikum1VS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/socket-client.iml" filepath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-client/sources/socket-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/socket-server.iml" filepath="$PROJECT_DIR$/distributed-systems/udp-socket/socket-server/sources/socket-server.iml" />
+    </modules>
+  </component>
+</project>

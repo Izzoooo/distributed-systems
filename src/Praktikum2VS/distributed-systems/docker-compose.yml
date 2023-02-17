@@ -1,0 +1,48 @@
+version: '3.9'
+services:
+  server:
+    hostname: socket-server
+    build:
+      context: ./udp-socket/socket-server
+      dockerfile: Dockerfile
+    depends_on:
+      - client
+    ports:
+      - 6543:6543/udp
+
+  client:
+    hostname: client
+    environment:
+      - DESTINATION=socket-server
+    build:
+      context: ./udp-socket/socket-client
+      dockerfile: Dockerfile
+    deploy:
+      replicas: 4
+
+  db:
+    hostname: db
+    image: postgres
+    volumes:
+      - /db/crebas.sql:/docker-entrypoint-initdb.d
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "1234IzzoReng"
+      POSTGRES_DB: "postgres"
+
+  tcp-server:
+    build:
+      context: ./udp-socket/tcp-server/
+      dockerfile: Dockerfile
+    ports:
+      - 3142:3142/tcp
+    depends_on:
+      - db  
+    environment:
+      - DB_URL=jdbc:postgresql://db:5432/postgres
+      - DB_PORT=5432
+      - DB_NAME=postgres
+      - DB_USER=postgres
+      - DB_PASSWORD=1234IzzoReng

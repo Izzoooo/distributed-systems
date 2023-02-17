@@ -1,0 +1,3 @@
+Database:
+Als Datenbank haben wir uns für postgreSQL entschieden, da eine Datei wie JSON oder CSV als Datenbank zu benutzen sehr schmerzhaft  
+aufgrund des selbst Kümmerns der zu persistierenden Daten und des Formats der Dateien sein kann. 

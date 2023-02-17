@@ -1,0 +1,17 @@
+Healcthcheck: 
+  
+Die Worker schicken mittels UDP als erstes eine Nachricht(z.B. "Worker 1") an Controller und der Contoller empfängt das Packet und entpackt und 
+schickt den selben Inhalt von der Nachricht zurück an diesen Worker, wenn das Packet bei der Controller Seite bereits angekommen ist und nicht leer ist,
+dann somit weiß der Controller, dass dieser Worker betreibsbereit ist und gibt anschließend eine Ausgabe.
+Natürlich haben wir uns um die Wartezeit aufgrund der UDP-Kommunikation gekümmert.
+Nämlich alle vier Sekunden stellt der Controller sicher, ob dieses bestimmtes Packet vorhanden ist oder nicht und darauf basierend bewertet
+er das ganze. 
+Auf der Worker-Seite wird auf eine Rückantwrot von Controller gewartet, sobald es angekommen ist entpackt er es und vergleicht diesen Inhalt 
+mit seinem, was er tatsächlich geschickt hat, falls die Inhalte gleich sind, dann weiß er Bescheid, dass er selbst wach bzw. betreibsbereit ist.
+Also, in unserem Fall wird auf beiden Seiten Healthcheck überprüft und überwacht.
+
+
+RTT(Round Trip Time): 
+
+die Packetumlaufzeit wird nur auf Worker-Seite berechnet, in dem die Localtime von Packetsendung und die Localtime Packetempfang gecacht wird,
+um das Differenz zwischen beiden Localtime zu liefern, das in dem Fall als RTT gilt. 
